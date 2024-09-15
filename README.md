@@ -10,11 +10,11 @@ ABORDAGEN 1 / MICROSERVICES
 - Build: Gradle
 
 # Servicos
-- api-produtos:
-- api-clientes:
-- api-notifica-producer
+- api-clientes 8081:
+- api-produtos 8082:
+- api-notifica-producer 8083:
 - infra-kafka:
-- api-notifica-consumer
+- api-notifica-consumer 8084:
 
 # Testes 
 - e2e: postman 
