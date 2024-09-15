@@ -11,7 +11,10 @@ ABORDAGEN 1 / MICROSERVICES
 
 # Servicos
 - api-produtos:
-- api-clientes: 
+- api-clientes:
+- api-notifica-producer
+- infra-kafka:
+- api-notifica-consumer
 
 # Testes 
 - e2e: postman 
