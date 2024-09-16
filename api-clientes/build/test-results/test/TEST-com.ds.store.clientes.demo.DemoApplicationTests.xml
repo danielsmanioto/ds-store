@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ds.store.clientes.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-15T04:05:08" hostname="Daniels-MacBook-Pro.local" time="0.616">
+<testsuite name="com.ds.store.clientes.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-16T02:11:55" hostname="Daniels-MacBook-Pro.local" time="0.425">
   <properties/>
-  <testcase name="contextLoads()" classname="com.ds.store.clientes.demo.DemoApplicationTests" time="0.616"/>
-  <system-out><![CDATA[01:05:08.235 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ds.store.clientes.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-01:05:08.282 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ds.store.clientes.demo.ClienteApplication for test class com.ds.store.clientes.demo.DemoApplicationTests
+  <testcase name="contextLoads()" classname="com.ds.store.clientes.demo.DemoApplicationTests" time="0.425"/>
+  <system-out><![CDATA[23:11:54.930 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ds.store.clientes.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:11:54.977 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ds.store.clientes.demo.ClienteApplication for test class com.ds.store.clientes.demo.DemoApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
 
  :: Spring Boot ::                (v3.3.3)
 
-2024-09-15T01:05:08.440-03:00  INFO 73443 --- [demo] [    Test worker] c.d.s.c.demo.DemoApplicationTests        : Starting DemoApplicationTests using Java 20.0.2 with PID 73443 (started by danielsmanioto in /Users/danielsmanioto/Documents/projects/projets_senior/ds-store/api-clientes)
-2024-09-15T01:05:08.441-03:00  INFO 73443 --- [demo] [    Test worker] c.d.s.c.demo.DemoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
-2024-09-15T01:05:08.897-03:00  INFO 73443 --- [demo] [    Test worker] c.d.s.c.demo.DemoApplicationTests        : Started DemoApplicationTests in 0.55 seconds (process running for 1.042)
+2024-09-15T23:11:55.127-03:00  INFO 9984 --- [demo] [    Test worker] c.d.s.c.demo.DemoApplicationTests        : Starting DemoApplicationTests using Java 20.0.2 with PID 9984 (started by danielsmanioto in /Users/danielsmanioto/Documents/projects/projets_senior/ds-store/api-clientes)
+2024-09-15T23:11:55.127-03:00  INFO 9984 --- [demo] [    Test worker] c.d.s.c.demo.DemoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T23:11:55.600-03:00  INFO 9984 --- [demo] [    Test worker] c.d.s.c.demo.DemoApplicationTests        : Started DemoApplicationTests in 0.57 seconds (process running for 1.036)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

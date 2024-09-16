@@ -1,7 +1,7 @@
 # ds-store
 
-ABORDAGEN 1 / MICROSERVICES
-![image](https://github.com/user-attachments/assets/0e11affe-c682-4c12-8e66-f725d6c2a418)
+Desenho de arquitetura / system design
+![img.png](img.png)
 
 # Dados técnicos
 - Tecnologias: Java20 , Springboot
@@ -10,11 +10,12 @@ ABORDAGEN 1 / MICROSERVICES
 - Build: Gradle
 
 # Servicos
-- api-clientes 8081:
-- api-produtos 8082:
-- api-notifica-producer 8083:
-- infra-kafka:
-- api-notifica-consumer 8084:
+- api-clientes 8081 :
+- api-produtos 8082 :
+- api-notifica-producer 8083 :
+- infra-kafka :
+- api-notifica-consumer 8084 :
+- api-mensagem 8085 : 
 
 # Testes 
 - e2e: postman 
